@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0f111a;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+}
+
+#quiz-box {
+  background-color: #1a1d2b;
+ box-shadow:
+  0 4px 20px rgba(0, 170, 255, 0.35),
+  0 0 20px rgba(0, 170, 255, 0.25),
+  0 0 30px rgba(0, 170, 255, 0.2);
+
+  padding: 30px 40px;
+  border-radius: 15px;
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+}
+
+#questions {
+  font-size: 24px;
+  margin-bottom: 20px;
+  background: linear-gradient(to right, #ff4e50, #f9d423);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow:
+   0 2px 4px rgba(0, 0, 0, 0.3),    
+    0 0 8px rgba(255, 78, 80, 0.5),
+    0 0 12px rgba(249, 212, 35, 0.4);
+}
+
+#scoring {
+  margin-top: 25px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #00e676;
+}
+
+button.making-option {
+  background-color: #2c3e50;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 20px;
+  margin: 10px 0;
+  width: 100%;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s ease, opacity .4s ease;
+}
+
+button.making-option:hover {
+  background-color: #3b536d;
+  transform: scale(1.03);
+}
+button.making-option:active {
+  opacity : .7;
+  transform : scale(.95);
+}
+
+button.making-option.correct {
+  background-color: #00c853 ;
+}
+
+button.making-option.wrong {
+  background-color: #ff5252 ;
+}
+
+button.restart-button {
+  background-color: #00bcd4;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease ;
+}
+
+button.restart-button:hover {
+  background-color: #0097a7;
+}
+
+  button.making-option:active {
+  opacity : .7;
+  transform : scale(.95);
+}
+  
+button.restart-button:active {
+  opacity : .7;
+  transform : scale(.95);
+}
